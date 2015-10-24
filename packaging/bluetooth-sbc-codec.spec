@@ -3,7 +3,7 @@ Summary:    SBC codec for bluetooth
 Version: 1.0
 Release:    4
 Group:      TO_BE/FILLED_IN
-License:       GPLv2 and LGPLv2+
+License:       GPL-2.0+
 URL:           http://www.bluez.org
 Source0:       http://www.kernel.org/pub/linux/bluetooth/%{name}-%{version}.tar.gz
 BuildRequires:  pkgconfig(sndfile)
@@ -12,6 +12,7 @@ BuildRequires:  pkgconfig(sndfile)
 SBC codec for bluetooth
 
 %package bin
+License:    GPL-2.0+
 Summary:    Utility for SBC codec
 Group:      TO_BE/FILLED_IN
 Requires:   %{name} = %{version}-%{release}
@@ -20,6 +21,7 @@ Requires:   %{name} = %{version}-%{release}
 Development librariy for Bluetooth sbc codec
 
 %package devel
+License:    LGPL-2.1+
 Summary:    Development library for Bluetooth sbc codec
 Group:      Development/Libraries
 Requires:   %{name} = %{version}-%{release}
